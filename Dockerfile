@@ -2,9 +2,9 @@ FROM ubuntu:14.04
 
 RUN apt-get update && apt-get install -y firefox
 
-ENV UID="501"
-ENV GID="20"
-ENV user="jaci"
+ENV UID="your_uid"
+ENV GID="your_gid"
+ENV user="your_username"
 
 # Replace 1000 with your user / group id
 #RUN export uid=1000 gid=1000 && \

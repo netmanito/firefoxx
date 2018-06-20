@@ -8,6 +8,8 @@ Run Xquartz
 
 	$ open -a XQuartz
 
+Open XQuartz -> Preferences from the menu bar. Go to the last tab, Security, and enable both "Allow connections from network clients" and "Authenticate connections" checkboxes and restart XQuartz.
+
 Add xhost permissions
 
 	$ xhost + 127.0.0.1
